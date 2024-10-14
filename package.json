@@ -1,0 +1,81 @@
+{
+  "name": "etm-livebos-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "accounting": "^0.4.1",
+    "ant-design-vue": "^1.7.4",
+    "axios": "^0.21.4",
+    "babel-runtime": "^6.26.0",
+    "core-js": "^2.6.12",
+    "echarts": "^5.3.3",
+    "echarts-liquidfill": "^3.0.0",
+    "encryptlong": "^3.1.4",
+    "eslint": "^5.16.0",
+    "glob": "^7.1.6",
+    "jquery": "^3.6.0",
+    "js-base64": "^2.6.4",
+    "js-cookie": "2.2.0",
+    "loadsh": "0.0.4",
+    "moment": "^2.29.4",
+    "node-sass": "^7.0.3",
+    "normalize.css": "7.0.0",
+    "nprogress": "0.2.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "sm-crypto": "^0.3.6",
+    "swiper": "^6.5.8",
+    "v-viewer": "^1.6.4",
+    "vue": "^2.6.10",
+    "vue-amap": "^0.5.10",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-router": "^3.0.3",
+    "vue-social-share": "0.0.3",
+    "vuex": "^3.0.1",
+    "x2js": "^3.4.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-polyfill": "^6.26.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "jsencrypt": "^3.2.1",
+    "less": "^4.1.0",
+    "less-loader": "^6.2.0",
+    "mockjs": "1.0.1-beta3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "jquery": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
